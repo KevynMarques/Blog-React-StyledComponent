@@ -1,0 +1,15 @@
+import Header from '../Header/index'
+import Home from '../Home/';
+
+
+export default () => {
+ 
+  return (
+  
+    <>
+    
+    </>
+
+  );
+
+}
