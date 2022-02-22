@@ -1,0 +1,28 @@
+import styled from 'styled-components'
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+export const Tittle = styled.h1`
+color: #312f2f;
+font-size: 60px;
+font-family: 'Bangers', cursive;
+text-align: center;
+height: 40px;
+margin-top: 45px;    
+`;
+
+
+export const Info = styled.p`
+ margin: 30px;
+`;
+
+
+export const SubTitle = styled.h2 `
+ text-align: center;
+ font-size: 30px;
+ margin-top: 60px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #464646;
+ margin-bottom: -35px;
+ font-family: 'Bangers', cursive;
+`;

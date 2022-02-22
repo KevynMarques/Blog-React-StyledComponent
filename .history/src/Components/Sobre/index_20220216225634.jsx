@@ -1,0 +1,58 @@
+import Foto from '../Image/foto.png'
+import LV from '../Image/LV.jpg'; 
+import Dog from '../Image/Dog.png'
+import { Tittle } from "../Textos&Titles/style";
+import { ContainerBaner, ContainerBox, ContainerIMG } from "../Containers/style";
+import { Info } from "../Textos&Titles/style";
+import { SubTitle } from '../Textos&Titles/style';
+
+
+export default () => {
+  return (
+<>
+     <ContainerBaner>
+      <img src={Dog} />
+     </ContainerBaner>
+
+   <Tittle> 
+          Adestramento DK
+  </Tittle>
+  <SubTitle>Quem sou eu</SubTitle>
+
+
+  <ContainerBox>
+       <ContainerIMG>
+        <img src={Foto} />
+       </ContainerIMG>
+       <Info>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ut temporibus eum illo. Labore veritatis inventore harum quis temporibus odit ab, sunt minus officia ipsum sed nihil dolores maxime id. 
+       <br></br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis ratione aspernatur odit id, suscipit quasi, fugiat qui  exercitationem  enim cumque accusantium laborum quaerat dicta nulla. Modi necessitatibus aliquid ipsum!
+        </Info>
+       </ContainerBox> 
+
+
+   <Tittle> 
+      Viper e Logan
+    </Tittle>
+
+  <SubTitle>  Acompanhem nosso dia a dia </SubTitle>
+
+
+    <ContainerBox>
+
+       <ContainerIMG>
+        <img src={LV} />
+       </ContainerIMG>
+       <Info>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ut temporibus eum illo. Labore veritatis inventore harum quis temporibus odit ab, sunt minus officia ipsum sed nihil dolores maxime id. 
+       <br></br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem perferendis ratione aspernatur odit id, suscipit quasi, fugiat qui  exercitationem  enim cumque accusantium laborum quaerat dicta nulla. Modi necessitatibus aliquid ipsum!
+        </p>
+       </Info>
+      </ContainerBox> 
+
+</>
+
+  );
+}
